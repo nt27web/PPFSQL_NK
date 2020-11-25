@@ -1,9 +1,6 @@
-# Index Page data table view:
-![Index Page view](./screenshots/lesson_2_index_page_table_view.png)
+# Lesson 3 Project Screenshots:
+![Lesson 3 Screenshots](./screenshots/Lesson3_Project_HW_NayanaK.docx)
 
-
-# REST endpoint view(JSON):
-![Endpoint View](./screenshots/lesson_2_endpoint_view.png)
 
 
 
