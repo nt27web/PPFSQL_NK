@@ -3,43 +3,55 @@
 <form action="/cities/new" method="POST">
     <div class="row">
         <div class="col">
-            <label for="fldName">City Name</label>
-            <input id="fldName" type="text" class="form-control" placeholder="City Name" name="fldName">
+            <label for="City">City</label>
+            <input id="City" type="text" class="form-control" placeholder="City" name="City">
         </div>
         <div class="col">
-            <label for="fldAbbreviation">City Abbreviation</label>
-            <input id="fldAbbreviation" t ype="text" class="form-control" placeholder="City Abbreviation"
-                   name="fldAbbreviation">
-        </div>
-        <div class="col">
-            <label for="fldCountry">City Country</label>
-            <input id="fldCountry" type="text" class="form-control" placeholder="City Country" name="fldCountry">
+            <label for="State">State</label>
+            <input id="State" type="text" class="form-control" placeholder="State" name="State">
         </div>
     </div>
 
     <div class="row">
         <div class="col">
-            <label for="fldLat">City Latitude</label>
-            <input id="fldLat" type="text" class="form-control" placeholder="City Latitude" name="fldLat">
+            <label for="LatD">Latitude(Degree)</label>
+            <input id="LatD" type="text" class="form-control" placeholder="Degree" name="LatD">
         </div>
         <div class="col">
-            <label for="fldlong">City Longitude</label>
-            <input id="fldlong" type="text" class="form-control" placeholder="City Longitude" name="fldLong">
+            <label for="LatM">Latitude(Minutes)</label>
+            <input id="LatM" type="text" class="form-control" placeholder="Minutes" name="LatM">
+        </div>
+        <div class="col">
+            <label for="LatS">Latitude(Seconds)</label>
+            <input id="LatS" type="text" class="form-control" placeholder="Seconds" name="LatS">
+        </div>
+        <div class="col">
+            <label for="NS">North/South</label>
+            <input id="NS" type="text" class="form-control" placeholder="N/S" name="NS">
         </div>
     </div>
+
     <div class="row">
         <div class="col">
-            <label for="fldCapitalStatus">Capital Status</label>
-
-            <input id="fldCapitalStatus" type="text" class="form-control" placeholder="Capital Status "
-                   name="fldCapitalStatus">
+            <label for="LonD">Longitude(Degree)</label>
+            <input id="LonD" type="text" class="form-control" placeholder="Degree" name="LonD">
         </div>
         <div class="col">
-            <label for="fldPopulation">City Population</label>
-            <input id="fldPopulation" type="text" class="form-control" placeholder="Population" name="fldPopulation">
+            <label for="LonM">Longitude(Minutes)</label>
+            <input id="LonM" type="text" class="form-control" placeholder="Minutes" name="LonM">
+        </div>
+        <div class="col">
+            <label for="LonS">Longitude(Seconds)</label>
+            <input id="LonS" type="text" class="form-control" placeholder="Seconds" name="LonS">
+        </div>
+        <div class="col">
+            <label for="EW">East/West</label>
+            <input id="EW" type="text" class="form-control" placeholder="E/W" name="EW">
         </div>
     </div>
-    <button type="submit" class="btn btn-success">Success</button>
+    <div style="align-content: center">
+        <button type="submit" class="btn btn-success">Add</button>
+    </div>
 
 </form>
 

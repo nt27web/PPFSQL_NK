@@ -4,7 +4,7 @@ use citiesData;
 
 -- table create DDL
 CREATE TABLE IF NOT EXISTS tblCities (
-    `Id` INT,
+    `Id` INT AUTO_INCREMENT,
     `LatD` INT,
     `LatM` INT,
     `LatS` INT,
@@ -13,8 +13,9 @@ CREATE TABLE IF NOT EXISTS tblCities (
     `LonM` INT,
     `LonS` INT,
     `EW` VARCHAR(1) CHARACTER SET utf8,
-    `City` VARCHAR(18) CHARACTER SET utf8,
-    `State` VARCHAR(2) CHARACTER SET utf8
+    `City` VARCHAR(20) CHARACTER SET utf8,
+    `State` VARCHAR(20) CHARACTER SET utf8,
+    PRIMARY KEY (`Id`)
 );
 
 -- data population DML for 100 records
