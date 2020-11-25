@@ -5,6 +5,8 @@ services:
     container_name: "Flask_App"
     links:
       - db
+    depends_on:
+      - db
     ports:
       - "5000:5000"
 
@@ -17,5 +19,3 @@ services:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
-
-
